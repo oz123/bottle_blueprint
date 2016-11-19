@@ -1,0 +1,7 @@
+git+https://github.com/bottlepy/bottle
+git+https://github.com/oz123/bottle-peewee
+peewee
+Jinja2
+ftputil
+wtforms
+cryptography==1.5.3
