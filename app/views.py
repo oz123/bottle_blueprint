@@ -25,7 +25,8 @@ def generate_csrf_token(length):
 
 def require_csrf(callback, *args, **kwargs):
     import inspect
-    callback_args = inspect.getargspec(callback)[0]
+
+    callback_args = inspect.getfullargspec(callback)
 
     def wrapper(*args, **kwargs):
 
