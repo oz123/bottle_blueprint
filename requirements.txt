@@ -4,4 +4,4 @@ peewee
 Jinja2
 ftputil
 wtforms
-cryptography==1.5.3
+cryptography==3.2
